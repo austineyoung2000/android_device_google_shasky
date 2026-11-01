@@ -1,0 +1,12 @@
+# Bluetooth
+bluetooth.device_id.product_id=16655
+bluetooth.profile.gmap.enabled=true
+persist.bluetooth.leaudio.toggle_visible=true
+ro.bluetooth.leaudio.le_audio_connection_by_default=true
+
+# Google keyboard
+ro.com.google.ime.height_ratio=1.1
+ro.com.google.ime.kb_pad_port_b=4.19
+
+# Quick start
+ro.quick_start.device_id=akita

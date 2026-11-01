@@ -1,0 +1,51 @@
+# Bluetooth
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
+
+# Camera
+persist.vendor.camera.adjust_backend_min_freq_for_1p_front_video_1080p_30fps=1
+persist.vendor.camera.adjust_backend_min_freq_for_video_120fps=1
+persist.vendor.camera.adjust_cam_uclamp_min_for_1p_rear_video_60fps=1
+persist.vendor.camera.extended_launch_boost=1
+persist.vendor.camera.increase_thread_priority_nodes_stop=true
+persist.vendor.camera.ois_with_system_imu=true
+persist.vendor.camera.optimized_tnr_freq=1
+vendor.camera.allow_sensor_binning_aspect_ratio_to_override_itp_output=false
+vendor.camera.debug.enable_blending_node=false
+vendor.camera.debug.enable_software_post_sharpen_node=false
+
+# DCK
+ro.gms.dck.eligible_wcc=2
+
+# Display
+ro.surface_flinger.set_idle_timer_ms=1500
+ro.vendor.display.read_temp_interval=30
+ro.vendor.primarydisplay.google-ak3b.temperature_path=/dev/thermal/tz-by-name/display_therm/temp
+vendor.primarydisplay.op.hs_hz=120
+vendor.primarydisplay.op.ns_hz=60
+vendor.primarydisplay.op.peak_refresh_rate=60
+
+# Fingerprint
+ro.vendor.fingerprint.ta.name=g7a.app
+
+# GPS
+persist.vendor.gps.hal.service.name=vendor
+
+# Media
+ro.odm.build.media_performance_class=33
+
+# Power
+vendor.powerhal.apf_disabled=false
+vendor.powerhal.apf_enabled=true
+
+# SVN
+ro.vendor.build.svn=62
+
+# Vibrator
+persist.vendor.vibrator.hal.context.scale=40
+ro.vendor.vibrator.hal.f0.comp.enabled=1
+ro.vendor.vibrator.hal.redc.comp.enabled=0
+vendor.audio.hapticgenerator.distortion.output.gain=0.29
+
+# Wi-Fi
+ro.vendor.wifi.manufacturer=broadcom
+ro.vendor.wifi.model=bcm4383
